@@ -51,6 +51,7 @@ class Params {
     const STATE = 'state';
     const REFRESH_TOKEN = 'refresh_token';
     const VIDEO_IDS = 'video_ids';
+    const TOKEN = 'access_token';
 
     /**
      * Get fields for a request.
