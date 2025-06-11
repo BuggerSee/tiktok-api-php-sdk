@@ -169,7 +169,7 @@ class Authentication extends TikTok {
             Params::CLIENT_KEY => $this->getClientKey(),
             Params::RESPONSE_TYPE => self::RESPONSE_TYPE_CODE,
             Params::REDIRECT_URI => $redirectUri,
-            Params::SCOPE => Params::commaStringToArray( $scope ),
+            Params::SCOPE => $scope,
             Params::STATE => $state
         );
 
